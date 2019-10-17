@@ -8,6 +8,9 @@
 
 import UIKit
 
-class RepositoriesView: NSObject {
+protocol RepositoriesView : class  {
 
+    func feachAllRepositories(repositories: [RepositoryItem])
+    func errorFeachRespositories(error : String)
+    func displayLoadingView(show : Bool)
 }

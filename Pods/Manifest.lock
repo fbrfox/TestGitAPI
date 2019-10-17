@@ -1,0 +1,38 @@
+PODS:
+  - Alamofire (4.9.0)
+  - AlamofireImage (3.5.2):
+    - Alamofire (~> 4.8)
+  - AlamofireObjectMapper (5.2.1):
+    - Alamofire (~> 4.7)
+    - ObjectMapper (~> 3.4)
+  - JGProgressHUD (2.1)
+  - ObjectMapper (3.5.1)
+  - PullToRefresher (3.1)
+
+DEPENDENCIES:
+  - Alamofire
+  - AlamofireImage (~> 3.5)
+  - AlamofireObjectMapper (~> 5.2)
+  - JGProgressHUD
+  - PullToRefresher (~> 3.1)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - AlamofireImage
+    - AlamofireObjectMapper
+    - JGProgressHUD
+    - ObjectMapper
+    - PullToRefresher
+
+SPEC CHECKSUMS:
+  Alamofire: afc3e7c6db61476cb45cdd23fed06bad03bbc321
+  AlamofireImage: 63cfe3baf1370be6c498149687cf6db3e3b00999
+  AlamofireObjectMapper: 1989f690e982b71921b9253f53a4f33a9bc00d88
+  JGProgressHUD: aa403e9a5b45cae98903c4600cccdd98c0c3ec90
+  ObjectMapper: 70187b8941977c62ccfb423caf6b50be405cabf0
+  PullToRefresher: ec8c1942bd61bb512ff520c49f9f00903cfa86c7
+
+PODFILE CHECKSUM: b1d58ef6708644ad64166daa193981538be1bd38
+
+COCOAPODS: 1.8.4

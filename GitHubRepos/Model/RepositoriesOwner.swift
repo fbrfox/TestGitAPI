@@ -7,3 +7,20 @@
 //
 
 import Foundation
+import ObjectMapper
+
+class RepositoriesOwner: Mappable {
+    
+    var avatarUrl : String?
+    var login : String?
+    
+    required init?(map: Map) {
+        
+    }
+    
+    func mapping(map: Map) {
+        
+        avatarUrl <- map["avatar_url"]
+        login <- map["login"]
+    }
+}

@@ -7,3 +7,10 @@
 //
 
 import Foundation
+
+protocol RepositoriesProtocol {
+    
+    
+    func fetchRepositories(completionHandler: @escaping (Repositories?,_ statusCode:Int)-> Void)
+    
+}
